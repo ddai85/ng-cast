@@ -1,5 +1,13 @@
 angular.module('video-player')
 
 .component('videoPlayer', {
-  // TODO
+  bindings: {
+    currentVideo: '<'
+  },
+  templateUrl: 'src/templates/videoPlayer.html',
+  controller: function() {
+    this.$onInit = function() {
+      this.youtubeEmbed = "https://www.youtube.com/embed/";
+    }
+  }
 });
