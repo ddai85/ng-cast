@@ -7,7 +7,7 @@ angular.module('video-player')
   templateUrl: 'src/templates/videoPlayer.html',
   controller: function() {
     this.$onInit = function() {
-      this.youtubeEmbed = "https://www.youtube.com/embed/";
-    }
+      this.youtubeEmbed = 'https://www.youtube.com/embed/';
+    };
   }
 });

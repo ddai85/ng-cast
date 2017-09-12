@@ -10,7 +10,7 @@ angular.module('video-player')
       this.thumbnail = this.video.snippet.thumbnails.default.url;
       this.clickHandler = function() {
         this.selectVideo(this.video);
-      }
-    }
+      };
+    };
   }
 });
